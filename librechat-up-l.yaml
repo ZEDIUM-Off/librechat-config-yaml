@@ -4,6 +4,7 @@ cache: true
 
 mcpServers:
   twenty:
+    type: streamable-http
     url: 'https://mcp.highfinity.org/metamcp/twenty/mcp'
     requiresOAuth: false
     headers:
