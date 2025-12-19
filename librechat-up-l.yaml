@@ -4,7 +4,9 @@ cache: true
 
 mcpServers:
   twenty:
+    type: 'sse'
     url: 'https://mcp.highfinity.org/metamcp/twenty/sse'
+    requiresOAuth: false
     headers:
       Authorization: 'Baerer ${METAMCP_API_KEY}'
 
