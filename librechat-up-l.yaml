@@ -4,11 +4,10 @@ cache: true
 
 mcpServers:
   twenty:
-    type: 'sse'
-    url: 'https://mcp.highfinity.org/metamcp/twenty/sse'
+    url: 'https://mcp.highfinity.org/metamcp/twenty/mcp'
     requiresOAuth: false
     headers:
-      Authorization: 'Baerer ${METAMCP_API_KEY}'
+      Authorization: 'Bearer ${METAMCP_API_KEY}'
 
 interface:
   privacyPolicy:
